@@ -48,6 +48,7 @@
 
       <nav id="navbar" class="navbar">
         <ul>
+
           <li><a class="nav-link scrollto active" href="/">Home</a></li>
           <li><a class="nav-link scrollto" href="/team">Team</a></li>
           <li><a class="nav-link scrollto" href="/contact">Contact</a></li>
