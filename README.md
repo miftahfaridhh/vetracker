@@ -1,62 +1,93 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+## Brocket Project
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Made to complete studies, by :
+- Bryan Dario Lesmana
+- Muhammad Miftah Faridh
+- Suryanegara
+- Aditya Ghalib Hendryan 
+- Yogie Wisesa
+- Muhamad Fadil Hafiz
+- Nisrina Athallah
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Requirement
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- Windows 10
+- XAMPP : https://www.apachefriends.org/index.html
+- Composer : https://getcomposer.org/Composer-Setup.exe
+- Code Editor
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## How to run
 
-## Learning Laravel
+- Make sure all the requirements have been met
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- Open CMD/Terminal
+```bash
+git clone https://github.com/miftahfaridhh/vetracker.git
+cd brocket
+composer install
+```
+- Copy .env.example file to .env on the root folder. Type like this if you using command prompt Windows
+```bash
+copy .env.example .env
+```
+or if using terminal, Ubuntu.
+```bash
+cp .env.example .env
+```
+- generate app key
+```bash
+php artisan key:generate
+```
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- open XAMPP without closing the CMD, klik start Click start on apache and MySQL
 
-## Laravel Sponsors
+- open your localhost/phpmyadmin on your browser
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+- make a new database with the name 'brocket'
 
-### Premium Partners
+- open cmd/terminl again, type
+```bash
+php artisan migrate
+```
+- To run the laravel project
+```bash
+php artisan serve
+```
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
+## How To  Contrib
 
-## Contributing
+Berikut tutorial untuk melakukan pull request
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+1. Fork repository
 
-## Code of Conduct
+2. Clone repository hasil fork
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+```bash
+$ git clone [url]
+```
 
-## Security Vulnerabilities
+3. Buat branch lokal baru
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+```bash
+$ git branch [nama-branch]
+```
 
-## License
+4. Pindah ke branch yang dibuat
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+```bash
+$ git checkout [nama-branch]
+```
+
+5. Membuat commit baru
+
+```bash
+$ git add .
+$ git commit -m "pesan"
+```
+
+6. Push branch ke github
+
+```bash
+$ git push origin [nama-branch]
+```
