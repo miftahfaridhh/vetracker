@@ -1,19 +1,17 @@
 ## Brocket Project
 
 Made to complete studies, by :
-- Bryan Dario Lesmana
+- Abdul Fattah
+- Dio Fajrie A
+- Diaz Ilyasa
+- Helmi Arrazy
 - Muhammad Miftah Faridh
-- Suryanegara
-- Aditya Ghalib Hendryan 
-- Yogie Wisesa
-- Muhamad Fadil Hafiz
-- Nisrina Athallah
 
 
 ## Requirement
 
 - Windows 10
-- XAMPP : https://www.apachefriends.org/index.html
+- XAMPP for php 8 : https://www.apachefriends.org/index.html
 - Composer : https://getcomposer.org/Composer-Setup.exe
 - Code Editor
 
