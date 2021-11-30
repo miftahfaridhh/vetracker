@@ -22,7 +22,7 @@ Made to complete studies, by :
 - Open CMD/Terminal
 ```bash
 git clone https://github.com/miftahfaridhh/vetracker.git
-cd brocket
+cd vetracker
 composer install
 ```
 - Copy .env.example file to .env on the root folder. Type like this if you using command prompt Windows
@@ -42,7 +42,7 @@ php artisan key:generate
 
 - open your localhost/phpmyadmin on your browser
 
-- make a new database with the name 'brocket'
+- make a new database with the name 'laravel'
 
 - open cmd/terminl again, type
 ```bash
