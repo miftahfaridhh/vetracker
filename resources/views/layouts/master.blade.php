@@ -52,7 +52,8 @@
           <li><a class="nav-link scrollto active" href="/">Home</a></li>
           <li><a class="nav-link scrollto" href="/team">Team</a></li>
           <li><a class="nav-link scrollto" href="/contact">Contact</a></li>
-          <li><a class="nav-link scrollto" href="/eror">Sign In</a></li>
+          <li><a class="nav-link scrollto" href={{ route('login') }}>Sign In</a></li>
+          <li><a class="nav-link scrollto" href={{ route('register') }}>Sign Up</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->

@@ -122,6 +122,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo {
+  
   font-size: 30px;
   margin: 0;
   padding: 0;
@@ -136,6 +137,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
+  
   max-height: 40px;
 }
 
@@ -616,9 +618,13 @@ section {
 }
 
 .about .video-box {
-  background: url("../img/about.jpg") center center no-repeat;
+  background: url("../img/vetrack.jpg") center center no-repeat;
   background-size: cover;
   min-height: 500px;
+}
+
+.background-image{
+  background: url("../img/cta-bg.jpg") ;
 }
 
 .about .play-btn {
