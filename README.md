@@ -42,7 +42,7 @@ php artisan key:generate
 
 - open your localhost/phpmyadmin on your browser
 
-- make a new database with the name 'laravel'
+- make a new database with the name 've_tracker'
 
 - open cmd/terminl again, type
 ```bash
