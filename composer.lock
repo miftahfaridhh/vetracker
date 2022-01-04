@@ -1622,6 +1622,7 @@
             "time": "2021-12-14T17:49:47+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "laravel/serializable-closure",
             "version": "v1.0.5",
             "source": {
@@ -1681,6 +1682,8 @@
             "time": "2021-11-30T15:53:04+00:00"
         },
         {
+=======
+>>>>>>> 54454e2b92832e6206136c62edaeaf689d4de6c7
             "name": "laravel/tinker",
             "version": "v2.6.3",
             "source": {
